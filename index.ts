@@ -11,7 +11,7 @@ app.get("/cpu", (req,res) => {
     for(let i = 0; i < 1_000_000_0; i++){
         Math.random();
     }
-    res.send("Hello world...!");
+    res.send("cpu intensive task...!");
 })
 
 app.get("/host", (req,res) => {
